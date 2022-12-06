@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.sub-container {
+  column-count: 2;
+  display: flex;
+  margin: 8px;
+  padding: 3px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  padding: 5px;
+  margin: 3px;
+  color: #0f172a;
+}
+.image {
+  height: 12px;
+  width: 12px;
+  padding: 5px;
+  margin: 1px;
+}
+
+.heading {
+  color: #252627;
+  font-size: 40px;
+  font-family: 'Roboto';
+  padding: 5px;
+  margin: 2px;
+}
