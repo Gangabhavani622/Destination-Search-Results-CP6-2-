@@ -13,7 +13,7 @@ class DestinationSearch extends Component {
   render() {
     const {searchInput, destinationsList} = this.state
 
-    const searchResults = destinationsList.filter(eachItem =>
+    const searchResults = destinationsList.destinationList.filter(eachItem =>
       eachItem.name.includes(searchInput),
     )
 
