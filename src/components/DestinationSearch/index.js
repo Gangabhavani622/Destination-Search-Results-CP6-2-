@@ -4,7 +4,7 @@ import DestinationItem from '../DestinationItem'
 import './index.css'
 
 class DestinationSearch extends Component {
-  state = {searchInput: '', destinationsList: this.props}
+  state = {searchInput: 'es', destinationsList: this.props}
 
   onSearchInput = event => {
     this.setState({searchInput: event.target.value})
@@ -12,7 +12,7 @@ class DestinationSearch extends Component {
 
   render() {
     const {searchInput, destinationsList} = this.state
-
+    
     const searchResults = destinationsList.destinationList.filter(eachItem =>
       eachItem.name.includes(searchInput),
     )
